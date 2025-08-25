@@ -17,7 +17,7 @@ if (loadingSpinner) {
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <QueryClientProvider client={queryClient}>
-      <ThemeProvider defaultTheme="light" storageKey="vite-ui-theme">
+      <ThemeProvider defaultTheme="system" storageKey="vite-ui-theme">
         <Toaster
           position="bottom-right"
           reverseOrder={false}
